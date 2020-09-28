@@ -1,4 +1,4 @@
-<?php $this->lang->load('dashboard'); ?>
+3<?php $this->lang->load('dashboard'); ?>
 <div class="container dashboard">
 <?php if(($this->config->item('use_auth') && ($this->session->userdata('user_type') >= 2)) || $this->config->item('use_auth') === FALSE) { ?>
 
