@@ -17,12 +17,12 @@
 	   <table width="100%" class="zebra-striped">
 			<tr class="titles">
 				<td><?php printf($this->lang->line('qsos_sate')); ?></td>
-				<td><?php printf($this->lang->line('qsos_time')); ?>Time</td>
-				<td><?php printf($this->lang->line('qsos_call')); ?>Call</td>
-				<td><?php printf($this->lang->line('qsos_mode')); ?>Mode</td>
-				<td><?php printf($this->lang->line('qsos_sent')); ?>Sent</td>
-				<td><?php printf($this->lang->line('qsos_recv')); ?>Recv</td>
-				<td><?php printf($this->lang->line('qsos_band')); ?>Band</td>
+				<td><?php printf($this->lang->line('qsos_time')); ?></td>
+				<td><?php printf($this->lang->line('qsos_call')); ?></td>
+				<td><?php printf($this->lang->line('qsos_mode')); ?></td>
+				<td><?php printf($this->lang->line('qsos_sent')); ?></td>
+				<td><?php printf($this->lang->line('qsos_recv')); ?></td>
+				<td><?php printf($this->lang->line('qsos_band')); ?></td>
 			</tr>
 
 			<?php $i = 0; 
