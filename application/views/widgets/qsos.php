@@ -16,7 +16,7 @@
 <body>
 	   <table width="100%" class="zebra-striped">
 			<tr class="titles">
-				<td><?php printf($this->lang->line('qsos_sate')); ?></td>
+				<td><?php printf($this->lang->line('qsos_date')); ?></td>
 				<td><?php printf($this->lang->line('qsos_time')); ?></td>
 				<td><?php printf($this->lang->line('qsos_call')); ?></td>
 				<td><?php printf($this->lang->line('qsos_mode')); ?></td>
