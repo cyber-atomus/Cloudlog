@@ -1,6 +1,8 @@
+<?php $this->lang->load('qsos'); ?>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-	<title>QSOs</title>
+	<title><?php printf($this->lang->line('qsos_title')); ?></title>
 	<style type="text/css" media="screen">
 		body {
 			font-family: Arial, "MS Trebuchet", sans-serif;
@@ -14,13 +16,13 @@
 <body>
 	   <table width="100%" class="zebra-striped">
 			<tr class="titles">
-				<td>Date</td>
-				<td>Time</td>
-				<td>Call</td>
-				<td>Mode</td>
-				<td>Sent</td>
-				<td>Recv</td>
-				<td>Band</td>
+				<td><?php printf($this->lang->line('qsos_sate')); ?></td>
+				<td><?php printf($this->lang->line('qsos_time')); ?>Time</td>
+				<td><?php printf($this->lang->line('qsos_call')); ?>Call</td>
+				<td><?php printf($this->lang->line('qsos_mode')); ?>Mode</td>
+				<td><?php printf($this->lang->line('qsos_sent')); ?>Sent</td>
+				<td><?php printf($this->lang->line('qsos_recv')); ?>Recv</td>
+				<td><?php printf($this->lang->line('qsos_band')); ?>Band</td>
 			</tr>
 
 			<?php $i = 0; 
