@@ -1,3 +1,5 @@
+<?php $this->lang->load('settings'); ?>
+
 <div class="container settings">
 
 	<div class="row">
@@ -5,15 +7,15 @@
 		<div class="col-md-3">
 			<ul class="nav flex-column settings-nav">
 				<li class="nav-item">
-					<a class="nav-link active" href="#">Active</a>
+					<a class="nav-link active" href="#"><?php printf($this->lang->line('settings_link_active')); ?></a>
 				</li>
 				
 				<li class="nav-item">
-					<a class="nav-link" href="#">Radio Interfaces</a>
+					<a class="nav-link" href="#"><?php printf($this->lang->line('settings_link_radio_interfacest')); ?></a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="#">ADIF</a>
+					<a class="nav-link" href="#"><?php printf($this->lang->line('settings_link_adif')); ?></a>
 				</li>
 			</ul>
 		</div>
@@ -21,7 +23,7 @@
 
 		<!-- Content -->
 		<div class="col-md-9">
-		2 of 2
+		<?php printf($this->lang->line('settings_number')); ?>
 		</div>
 	</div>
 
